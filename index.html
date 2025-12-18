@@ -2,45 +2,64 @@
 <html>
   <head>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <title>boaz.gg</title>
-    <meta name="description" content="who wants to party" />
+    <title>tata shoes</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
 
-    <!-- Facebook Meta Tags -->
-    <meta property="og:url" content="https://boaz.gg" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="my name is bo" />
-    <meta property="og:description" content="who wants to party" />
-    <meta
-      property="og:image"
-      content="https://boaz.gg/img/chef-hat-1200-600.png"
-    />
+      body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #ffeef8 0%, #fff0f5 50%, #ffeef8 100%);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 40px;
+        color: #333;
+      }
 
-    <!-- Twitter Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta property="twitter:domain" content="boaz.gg" />
-    <meta property="twitter:url" content="https://boaz.gg" />
-    <meta name="twitter:title" content="my name is bo" />
-    <meta name="twitter:description" content="who wants to party" />
-    <meta
-      name="twitter:image"
-      content="https://boaz.gg/img/chef-hat-1200-600.png"
-    />
-    <title>boaz.gg</title>
-    <link href="/css/normalize.css" rel="stylesheet" type="text/css" />
-    <link
-      href="http://fonts.googleapis.com/css?family=Roboto:400,700,400italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link href="/css/app.css" rel="stylesheet" type="text/css" />
+      h1 {
+        font-weight: 300;
+        font-size: clamp(3rem, 8vw, 6rem);
+        letter-spacing: 0.05em;
+        color: #ff69b4;
+        text-shadow: 2px 2px 4px rgba(255, 105, 180, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      h1:hover {
+        transform: scale(1.05);
+      }
+
+      .top {
+        align-self: flex-start;
+      }
+
+      .bottom {
+        align-self: flex-end;
+        text-align: right;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 30px 20px;
+        }
+
+        h1 {
+          font-size: clamp(2rem, 10vw, 4rem);
+        }
+      }
+    </style>
   </head>
   <body>
-    <div id="root">
-      <div class="container">
-        <h2>my name is bo</h2>
-        <img alt="cabrito" src="/img/cabrito-tiny.png" />
-        <h2>who wants to party</h2>
-      </div>
-    </div>
+    <h1 class="top">tata</h1>
+    <h1 class="bottom">shoes</h1>
   </body>
 </html>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Cute shoe -->
+  <path d="M 20 60 Q 20 50 30 50 L 50 50 Q 60 50 65 55 L 70 60 L 75 65 L 80 70 L 75 75 L 70 80 L 60 85 L 50 85 L 40 85 L 30 80 L 25 75 L 20 70 Z" fill="#FFB6C1" stroke="#FF69B4" stroke-width="2"/>
+  <!-- Shoe laces -->
+  <line x1="35" y1="60" x2="35" y2="70" stroke="#FF69B4" stroke-width="1.5"/>
+  <line x1="45" y1="60" x2="45" y2="70" stroke="#FF69B4" stroke-width="1.5"/>
+  <line x1="55" y1="60" x2="55" y2="70" stroke="#FF69B4" stroke-width="1.5"/>
+  <!-- Shoe sole -->
+  <ellipse cx="50" cy="85" rx="30" ry="5" fill="#FF1493"/>
+</svg>
+
